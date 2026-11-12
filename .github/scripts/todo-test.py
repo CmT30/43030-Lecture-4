@@ -3,7 +3,7 @@ from todo import Task, TaskPool
 from io import StringIO
 import sys
 
-class TestTask(unittest.TestCase):
+class TestTaskPool(unittest.TestCase):
 
     def setUp(self):
         self.pool = TaskPool()
